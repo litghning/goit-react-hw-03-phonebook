@@ -1,0 +1,18 @@
+.Label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+  .Input {
+    width: 165px;
+    outline: none;
+    height: 20px;
+    border-radius: 5%;
+    border: 1.5px solid rgba(180, 165, 165, 0.8);
+  }
+  .Input:focus {
+    border: 1.5px solid rgb(130, 181, 235);
+  }

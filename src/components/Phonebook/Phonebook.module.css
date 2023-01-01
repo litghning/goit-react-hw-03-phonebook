@@ -1,0 +1,41 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+  }
+  .Label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .Input {
+    width: 170px;
+    outline: none;
+    height: 20px;
+    border-radius: 5%;
+    border: 0.75px solid rgba(180, 165, 165, 0.8);
+  }
+  .Input:focus,
+  .Input:active {
+    border: 1.5px solid rgb(130, 181, 235);
+    background-color: #fff;
+  }
+  
+  .Submit {
+    width: 150px;
+    outline: none;
+    height: 25px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 0.75px solid rgba(144, 109, 109, 0.8);
+    background-color: rgb(255, 255, 255);
+  }
+  .Submit:hover,
+  .Submit:focus {
+    background-color: rgba(19, 36, 191, 0.4);
+    border: 0.75px solid rgba(49, 96, 146, 0.4);
+  }

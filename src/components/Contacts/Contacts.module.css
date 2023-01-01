@@ -1,0 +1,26 @@
+.List {
+    padding-left: 25px;
+  }
+  .ListItem {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .Info {
+    display: inline-block;
+  }
+  .Btn {
+    display: inline-block;
+    margin-left: 25px;
+    width: 70px;
+    outline: none;
+    height: 25px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 0.75px solid rgba(192, 136, 136, 0.8);
+    background-color: rgb(255, 255, 255);
+  }
+  .Btn:hover,
+  .Btn:focus {
+    background-color: rgba(6, 29, 202, 0.4);
+    border: 0.75px solid rgba(84, 136, 193, 0.4);
+  }
